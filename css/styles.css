@@ -126,7 +126,7 @@ b.max-bold{ font-weight: 700; }
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
-.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
+.intro .social-icons > li > a{ height: 35px; line-height: 40px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; text-align: center;
 	background: #887392; color: #fff; }
 
@@ -143,6 +143,11 @@ b.max-bold{ font-weight: 700; }
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
+
+div.info {
+	display: flex;
+	align-items: center;
+}
 
 
 
